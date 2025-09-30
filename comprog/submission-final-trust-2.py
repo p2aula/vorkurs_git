@@ -8,9 +8,11 @@ def is_prime(n):
     
     return True
 
-n = int(input("Enter a number: "))
+n = int(input("Gib eine Nummer ein Paula: "))
 
 if is_prime(n):
-    print(f"{n} is a prime number.")
+    print(f"{n} ist Primzahl.")
 else:
-    print(f"{n} is not a prime number.")
+    print(f"{n} ist keine Primzahl.")
+
+# deutsch
